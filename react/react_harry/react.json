@@ -1,0 +1,67 @@
+[
+  {
+    "depri": "用户接口注册",
+    "UPL": "http://xx.com/api/user/register",
+    "way": "POST",
+    "parameterName": [
+      {
+        "title": "参数名",
+        "field": "name"
+      },
+      {
+        "title": "必选",
+        "field": "choose"
+      },
+      {
+        "title": "类型",
+        "field": "type"
+      },
+      {
+        "title": "说明",
+        "field": "explain"
+      }
+    ],
+    "parameter": [
+      {
+        "name": "username",
+        "choose": "是",
+        "type": "string",
+        "explain": "用户名"
+      },
+      {
+        "name": "password",
+        "choose": "是",
+        "type": "string",
+        "explain": "密码"
+      },
+      {
+        "name": "name",
+        "choose": "否",
+        "type": "string",
+        "explain": "昵称"
+      }
+    ],
+    "returnParameterName": [
+      {
+        "title": "参数名",
+        "field": "name"
+      },
+      {
+        "title": "类型",
+        "field": "type"
+      },
+      {
+        "title": "说明",
+        "field": "explain"
+      }
+
+    ],
+    "returnParameter": [
+      {
+        "name": "groupid",
+        "type": "int",
+        "explain": "用户组id，1：超级管理员；2：普通用户"
+      }
+    ]
+  }
+]
